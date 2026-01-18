@@ -13,6 +13,6 @@ async function loadTemplate(url, templateId, targetId) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    loadTemplate("components/navbar.html", "navbar-template", "navbar");
-    loadTemplate("components/footer.html", "footer-template", "footer");
+    loadTemplate("/components/navbar.html", "navbar-template", "navbar");
+    loadTemplate("/components/footer.html", "footer-template", "footer");
 });
