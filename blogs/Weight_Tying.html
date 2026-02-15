@@ -20,9 +20,9 @@
         <section>
             <h3>Summary of Weight Tying</h3>
             <p>If we have an input embedding matrix V (the matrix that vectorizes our words) and an output embedding matrix W (the matrix that wordifies our vectors :F), 
-then if we set V = W, this is known as weight tying. Weight tying reduces the number of parameters we have to use significantly;
- specifically by exactly the number of parameters used in the input matrix (assuming the size of V is the same as W).  </p>
-<p>For a less naive and a more erudite explanation, see Press and Wolf 2017 https://arxiv.org/pdf/1608.05859. </p>
+then if we set V = $V^T$ (the transpose of W), this is known as weight tying. Weight tying reduces the number of parameters we have to use significantly;
+ specifically by exactly the number of parameters of one of the matrices.  </p>
+<p>For a less naive and a more erudite explanation that motivates the <em>why</em>, see Press and Wolf 2017 https://arxiv.org/pdf/1608.05859. </p>
         </section>
 
         <!-- About the Author Section -->
